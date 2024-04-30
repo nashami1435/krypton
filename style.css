@@ -1,0 +1,81 @@
+#titlebar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 42px;
+    color: rgb(245, 227, 146);
+    background-color: rgb(107, 117, 88);
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 5px;
+}
+
+
+body {
+    background-color: bisque;
+    color: rgb(66, 66, 66);
+}
+
+
+#navbar {
+    width: 75%;
+    background-color: rgba(32, 32, 32, 0.85);
+    float: left;
+    padding: 5px;
+    display: flex;
+    border-radius: 12px;
+    margin-left: 15%;
+    box-shadow: 2px 3px 7px;
+    text-align: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.25s;
+}
+
+#navbar a:hover {
+    color: rgb(255, 255, 255);
+    background-color: hsla(0, 0%, 61%, 0.4)
+}
+
+
+.content {
+    margin-top: 10%;
+}
+.content h3 {font-size: 36px;}
+.content p {font-size: 20px;}
+
+
+#linktable {
+    border-style: solid;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 3px,3px, 2px, 5px;
+    background-color: rgb(177, 164, 147);
+}
+
+#linktable a {
+    text-decoration: none;
+    color: rgb(40, 68, 41);
+}
+
+#linktable th, td {
+    border: 1px; 
+    border-style: solid;
+    border-color: rgb(97, 97, 97);
+    text-align: center;
+    background-color: rgb(221, 198, 169);
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
